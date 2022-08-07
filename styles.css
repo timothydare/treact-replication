@@ -290,3 +290,49 @@ Quality Work
     width: 100%;
     height: 100%;
 }
+/*
+Steps
+*/
+.steps__wrapper {
+    display: flex;
+    width: 100%;
+}
+.steps__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.steps__img {
+    width: 100%;
+}
+.steps__right {
+    width: 50%;
+    margin-left: 36px;
+    padding:32px 0;
+}
+.step{
+    display: flex;
+    margin-top: 32px;
+}
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.step__td {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+.step__title {
+    color: #243E63;
+    font-size: 20px;
+}
+.step__description {
+    color: #718096;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 500;
+    max-width: 300px;
+    line-height: 2;
+}
