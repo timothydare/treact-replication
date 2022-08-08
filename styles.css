@@ -336,3 +336,54 @@ Steps
     max-width: 300px;
     line-height: 2;
 }
+/*
+Values
+*/
+.values__wrapper {
+    display: flex;
+    width: 100%;
+}
+.values__left {
+    width: 50%;
+    padding-right: 48px;
+}
+.values__principles {
+    display: flex;
+    margin-top: 36px;
+}
+.values__ti {
+    display: flex;
+    align-items: center;
+}
+.principles__img--dollar {
+    color: green;
+    background-color: #9ae6b4;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+.principles__img--suitcase {
+   color: red; 
+   background-color: #feb2b2;
+   padding: 8px;
+   border-radius: 15px;
+}
+.values__title {
+    margin-left: 12px;
+    color: #243E63;
+    font-size: 20px;
+}
+.values__description {
+    color: #718096;
+    font-size: 16px;
+    margin-top: 16px;
+    max-width: 280px;
+    line-height: 1.625;
+}
+.values__right {
+    width: 50%;
+    display: flex;
+    align-content: center;
+}
+.values__img {
+    width: 100%;
+}
