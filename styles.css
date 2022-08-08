@@ -570,3 +570,53 @@ Testimonials
     justify-content: center;
     margin-left: 18px;
 }
+/*
+Developers
+*/
+.developers__background {
+    background-color: #6415ff;
+    padding: 100px 0;
+}
+.developers__wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0 120px;
+}
+.developers__left {
+    width: 50%;
+}
+.developers__title {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+}
+.developers__right {
+    width: 50%;
+}
+.developers__button--left {
+    color: white;
+    font-weight: 800;
+    background-color: #f56565;
+    padding: 24px 48px;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+}
+.developers__button--left:hover {
+    background-color: #e02e2e;
+}
+.developers__button--right {
+    color: white;
+    font-weight: 800;
+    background-color: #6415ff;
+    padding: 24px 48px;
+    border-radius: 9999px;
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    margin-left: 36px;
+}
+.developers__button--right:hover {
+    color: #6415ff;
+    background-color: white;
+}
