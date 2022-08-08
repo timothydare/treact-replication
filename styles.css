@@ -283,12 +283,13 @@ Quality Work
     width: 50%;
 }
 .qualitywork__right {
+    display: flex;
+    align-items: center;
     width: 50%;
     margin-left: 24px;
 }
 .qualitywork__img {
     width: 100%;
-    height: 100%;
 }
 /*
 Steps
@@ -386,4 +387,124 @@ Values
 }
 .values__img {
     width: 100%;
+}
+/*
+Plans 
+*/
+.plans {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.plan {
+    width: calc(90% / 3);
+    display: flex;
+    flex-direction: column;
+    margin: 0 12px;
+}
+.plan__box--1,
+.plan__box--2,
+.plan__box--3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0;
+    border: 1px solid #e5e7eb;
+}
+.plan__title {
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.plan__price {
+    color: #1a202c;
+    font-size: 48px;
+    font-weight: 700;
+}
+.plan__duration {
+    color: #a0aec0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.plan__subtitle {
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.plan__feature {
+    color: #718096;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 24px;
+    text-align: center;
+}
+.plan__personal {
+    border-top: 8px solid rgb(56, 178, 172);
+    border-radius: 10px;
+}
+.plan__personal--button {
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    padding: 24px 64px;
+    border-radius: 9999px;
+    border: none;
+}
+.plan__business {
+    border-top: 8px solid rgb(76, 81, 191);
+    border-radius: 10px;
+}
+.business__box--1,
+.business__box--2,
+.business__box--3 {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    --tw-border-opacity: 1;
+    border-color: rgba(102,126,234,var(--tw-border-opacity));
+}
+.business__title {
+    color: #f7fafc;
+    font-size: 20px;
+    font-weight: 700;
+}
+.business__price {
+    color: #f7fafc;
+    font-size: 48px;
+    font-weight: bold;
+}
+.business__duration {
+    color: #edf2f7;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.business__subtitle {
+    color: #f7fafc;
+    font-size: 20px;
+    font-weight: 700;
+}
+.business__feature{
+    color: #edf2f7;
+    font-weight: 500;
+    margin-top: 24px;
+    text-align: center;
+}
+.plan__business--button {
+    color: #6415ff;
+    font-weight: 800;
+    padding: 24px 64px;
+    border-radius: 9999px;
+    border: none;
+}
+.plan__enterprise {
+    border-top: 8px solid rgb(238, 121, 25);
+    border-radius: 10px;
+}
+.plan__enterprise--button {
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    padding: 24px 64px;
+    border-radius: 9999px;
+    border: none;
 }
