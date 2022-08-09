@@ -23,6 +23,20 @@ a {
 .link__hover-effect:hover:after {
     opacity: 1;
 }
+.link__hover-effectw:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #f7fafc;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+    transition: all 300ms;
+}
+.link__hover-effectw:hover:after {
+    opacity: 1;
+}
 li {
     list-style: none;
 }
@@ -33,7 +47,7 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 12px;
+    padding: 0 64px;
 }
 .text--purple {
     color: #6415ff;
@@ -352,6 +366,9 @@ Values
     display: flex;
     margin-top: 36px;
 }
+.values__principles--left {
+    margin-right: 36px;
+}
 .values__ti {
     display: flex;
     align-items: center;
@@ -619,4 +636,84 @@ Developers
 .developers__button--right:hover {
     color: #6415ff;
     background-color: white;
+}
+/* 
+Footer
+*/
+footer {
+    background-color: #6415ff;
+}
+.footer__row {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer__wrapper {
+    padding: 56px 64px;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link {
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+}
+.link__header {
+    color: #f7fafc;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.link__feature {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f7fafc;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.footer__divider {
+    width: 100%;
+    margin: 64px 0;
+    border-bottom: 2px#742cff solid;
+}
+.copyright__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright__logo {
+    display: flex;
+    align-items: center;
+}
+.copyright__logo--img {
+    width: 32px;
+    height: 32px;
+}
+.copyright__logo--text {
+    color: #f7fafc;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 12px;
+}
+.copyright__time--text {
+    color: #cbd5e0;
+}
+.copyright__link {
+    background-color: #f7fafc;
+    padding: 8px;
+    border-radius: 9999px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.copyright__link--f {
+    background-color: #f7fafc;
+    padding: 8px 10px;
+    border-radius: 9999px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.copyright__link:hover,
+.copyright__link--f:hover {
+    background-color: #f7fafc9f;
 }
